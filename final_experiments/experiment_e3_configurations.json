@@ -1,0 +1,6982 @@
+[
+  {
+    "ensemble_method": "simple_average",
+    "method_params": {},
+    "repetition": 0,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 600
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 550
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "maximum_score",
+    "method_params": {},
+    "repetition": 0,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 600
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 550
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols",
+    "method_params": {},
+    "repetition": 0,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 600
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 550
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols_r2",
+    "method_params": {
+      "emphasize_diversity": false
+    },
+    "repetition": 0,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 600
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 550
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": false
+    },
+    "repetition": 0,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 600
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 550
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": true
+    },
+    "repetition": 0,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 600
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 550
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "simple_average",
+    "method_params": {},
+    "repetition": 1,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 700
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "maximum_score",
+    "method_params": {},
+    "repetition": 1,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 700
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols",
+    "method_params": {},
+    "repetition": 1,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 700
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols_r2",
+    "method_params": {
+      "emphasize_diversity": false
+    },
+    "repetition": 1,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 700
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": false
+    },
+    "repetition": 1,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 700
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": true
+    },
+    "repetition": 1,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 700
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "simple_average",
+    "method_params": {},
+    "repetition": 2,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 550
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 650
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 600
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "maximum_score",
+    "method_params": {},
+    "repetition": 2,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 550
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 650
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 600
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols",
+    "method_params": {},
+    "repetition": 2,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 550
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 650
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 600
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols_r2",
+    "method_params": {
+      "emphasize_diversity": false
+    },
+    "repetition": 2,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 550
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 650
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 600
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": false
+    },
+    "repetition": 2,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 550
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 650
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 600
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": true
+    },
+    "repetition": 2,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 550
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 650
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 600
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "simple_average",
+    "method_params": {},
+    "repetition": 3,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 650
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "maximum_score",
+    "method_params": {},
+    "repetition": 3,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 650
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols",
+    "method_params": {},
+    "repetition": 3,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 650
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols_r2",
+    "method_params": {
+      "emphasize_diversity": false
+    },
+    "repetition": 3,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 650
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": false
+    },
+    "repetition": 3,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 650
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": true
+    },
+    "repetition": 3,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 650
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "simple_average",
+    "method_params": {},
+    "repetition": 4,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 80
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 100
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 700
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 40
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "maximum_score",
+    "method_params": {},
+    "repetition": 4,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 80
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 100
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 700
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 40
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols",
+    "method_params": {},
+    "repetition": 4,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 80
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 100
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 700
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 40
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols_r2",
+    "method_params": {
+      "emphasize_diversity": false
+    },
+    "repetition": 4,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 80
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 100
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 700
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 40
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": false
+    },
+    "repetition": 4,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 80
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 100
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 700
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 40
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": true
+    },
+    "repetition": 4,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 80
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 100
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 700
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 40
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "simple_average",
+    "method_params": {},
+    "repetition": 5,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 40
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "maximum_score",
+    "method_params": {},
+    "repetition": 5,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 40
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols",
+    "method_params": {},
+    "repetition": 5,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 40
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols_r2",
+    "method_params": {
+      "emphasize_diversity": false
+    },
+    "repetition": 5,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 40
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": false
+    },
+    "repetition": 5,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 40
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": true
+    },
+    "repetition": 5,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 450
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 40
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 500
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "simple_average",
+    "method_params": {},
+    "repetition": 6,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 100
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 700
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "maximum_score",
+    "method_params": {},
+    "repetition": 6,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 100
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 700
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols",
+    "method_params": {},
+    "repetition": 6,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 100
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 700
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols_r2",
+    "method_params": {
+      "emphasize_diversity": false
+    },
+    "repetition": 6,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 100
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 700
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": false
+    },
+    "repetition": 6,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 100
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 700
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": true
+    },
+    "repetition": 6,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 100
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 20
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 200,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 700
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 180
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "simple_average",
+    "method_params": {},
+    "repetition": 7,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "maximum_score",
+    "method_params": {},
+    "repetition": 7,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols",
+    "method_params": {},
+    "repetition": 7,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols_r2",
+    "method_params": {
+      "emphasize_diversity": false
+    },
+    "repetition": 7,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": false
+    },
+    "repetition": 7,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": true
+    },
+    "repetition": 7,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 50,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 350
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 160
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 120
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "simple_average",
+    "method_params": {},
+    "repetition": 8,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 600
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 300
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "maximum_score",
+    "method_params": {},
+    "repetition": 8,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 600
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 300
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols",
+    "method_params": {},
+    "repetition": 8,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 600
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 300
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols_r2",
+    "method_params": {
+      "emphasize_diversity": false
+    },
+    "repetition": 8,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 600
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 300
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": false
+    },
+    "repetition": 8,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 600
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 300
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": true
+    },
+    "repetition": 8,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 25,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 100,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 600
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 100
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 300
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 400
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 80
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "simple_average",
+    "method_params": {},
+    "repetition": 9,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 600
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "maximum_score",
+    "method_params": {},
+    "repetition": 9,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 600
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols",
+    "method_params": {},
+    "repetition": 9,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 600
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "wv_ols_r2",
+    "method_params": {
+      "emphasize_diversity": false
+    },
+    "repetition": 9,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 600
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": false
+    },
+    "repetition": 9,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 600
+        }
+      ]
+    ]
+  },
+  {
+    "ensemble_method": "hard_voting",
+    "method_params": {
+      "spread_window": 100,
+      "gaussian": true
+    },
+    "repetition": 9,
+    "base_learner_params": [
+      [
+        "LOF",
+        {
+          "windowSize": 150,
+          "neighbors": 20,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 10,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 200,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "LOF",
+        {
+          "windowSize": 50,
+          "neighbors": 100,
+          "gpu": true
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 60
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 500
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "IF",
+        {
+          "windowSize": 180
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 50,
+          "n_clusters": 200
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 500,
+          "n_clusters": 10
+        }
+      ],
+      [
+        "KMeans",
+        {
+          "windowSize": 100,
+          "n_clusters": 50
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 250
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 20
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 140
+        }
+      ],
+      [
+        "MP",
+        {
+          "windowSize": 600
+        }
+      ]
+    ]
+  }
+]

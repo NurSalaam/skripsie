@@ -1,0 +1,83 @@
+params,ucr_score,computational_time,base_learner
+{'windowSize': 20},0.164,36.86979031562805,IF
+{'windowSize': 40},0.184,42.122636795043945,IF
+{'windowSize': 60},0.204,49.620819330215454,IF
+{'windowSize': 80},0.22,60.72993087768555,IF
+{'windowSize': 100},0.22,69.7799973487854,IF
+{'windowSize': 120},0.236,86.87197947502136,IF
+{'windowSize': 140},0.224,105.01534128189088,IF
+{'windowSize': 160},0.228,129.72707867622375,IF
+{'windowSize': 180},0.216,137.98886370658877,IF
+{'windowSize': 200},0.208,148.82184600830078,IF
+{'windowSize': 250},0.216,166.81451964378357,IF
+{'windowSize': 300},0.204,181.84359216690063,IF
+{'windowSize': 350},0.196,194.41142964363095,IF
+{'windowSize': 400},0.204,205.1282877922058,IF
+{'windowSize': 450},0.184,215.87807965278623,IF
+{'windowSize': 500},0.168,224.10867762565613,IF
+{'windowSize': 550},0.18,237.11360883712769,IF
+{'windowSize': 600},0.172,243.9001724720001,IF
+{'windowSize': 650},0.172,256.16030859947205,IF
+{'windowSize': 700},0.172,264.8243372440338,IF
+"{'windowSize': 50, 'n_clusters': 10}",0.304,85.69295644760132,KMeans
+"{'windowSize': 50, 'n_clusters': 20}",0.36,104.61922216415404,KMeans
+"{'windowSize': 50, 'n_clusters': 50}",0.464,137.89339113235474,KMeans
+"{'windowSize': 50, 'n_clusters': 100}",0.492,210.96012020111084,KMeans
+"{'windowSize': 50, 'n_clusters': 200}",0.46,366.1720054149628,KMeans
+"{'windowSize': 100, 'n_clusters': 10}",0.304,130.896568775177,KMeans
+"{'windowSize': 100, 'n_clusters': 20}",0.336,165.15159106254578,KMeans
+"{'windowSize': 100, 'n_clusters': 50}",0.42,221.1694633960724,KMeans
+"{'windowSize': 100, 'n_clusters': 100}",0.448,328.5210933685303,KMeans
+"{'windowSize': 100, 'n_clusters': 200}",0.412,518.3612976074219,KMeans
+"{'windowSize': 200, 'n_clusters': 10}",0.288,218.45579528808597,KMeans
+"{'windowSize': 200, 'n_clusters': 20}",0.356,279.8199985027313,KMeans
+"{'windowSize': 200, 'n_clusters': 50}",0.404,396.2895107269287,KMeans
+"{'windowSize': 200, 'n_clusters': 100}",0.42,585.9838449954987,KMeans
+"{'windowSize': 200, 'n_clusters': 200}",0.332,886.487706899643,KMeans
+"{'windowSize': 500, 'n_clusters': 10}",0.276,478.9028186798096,KMeans
+"{'windowSize': 500, 'n_clusters': 20}",0.32,601.060507774353,KMeans
+"{'windowSize': 500, 'n_clusters': 50}",0.34,953.8670182228088,KMeans
+"{'windowSize': 500, 'n_clusters': 100}",0.372,1382.7761483192444,KMeans
+"{'windowSize': 500, 'n_clusters': 200}",0.288,2022.0304248332975,KMeans
+{'windowSize': 20},0.22,148.01747798919678,MP
+{'windowSize': 40},0.332,133.17953944206238,MP
+{'windowSize': 60},0.332,133.28522562980652,MP
+{'windowSize': 80},0.4,136.57049202919006,MP
+{'windowSize': 100},0.464,135.64004969596863,MP
+{'windowSize': 120},0.504,134.96781086921692,MP
+{'windowSize': 140},0.576,126.94993948936462,MP
+{'windowSize': 160},0.564,128.80940628051758,MP
+{'windowSize': 180},0.52,131.9326777458191,MP
+{'windowSize': 200},0.484,128.37227487564087,MP
+{'windowSize': 250},0.36,128.19901371002197,MP
+{'windowSize': 300},0.284,123.2414321899414,MP
+{'windowSize': 350},0.26,120.5876727104187,MP
+{'windowSize': 400},0.236,122.17722582817078,MP
+{'windowSize': 450},0.192,120.72057461738586,MP
+{'windowSize': 500},0.148,119.79966974258424,MP
+{'windowSize': 550},0.16,119.7373993396759,MP
+{'windowSize': 600},0.148,119.16570019721983,MP
+{'windowSize': 650},0.104,118.36989188194276,MP
+{'windowSize': 700},0.112,118.1606342792511,MP
+"{'windowSize': 25, 'neighbors': 10, 'gpu': True}",0.572,596.6183042526245,LOF
+"{'windowSize': 25, 'neighbors': 20, 'gpu': True}",0.572,598.1294121742249,LOF
+"{'windowSize': 25, 'neighbors': 50, 'gpu': True}",0.576,609.9326758384705,LOF
+"{'windowSize': 25, 'neighbors': 100, 'gpu': True}",0.52,637.2573606967926,LOF
+"{'windowSize': 50, 'neighbors': 10, 'gpu': True}",0.572,1160.4395606517792,LOF
+"{'windowSize': 50, 'neighbors': 20, 'gpu': True}",0.604,1153.9807813167572,LOF
+"{'windowSize': 50, 'neighbors': 50, 'gpu': True}",0.62,1170.6975560188293,LOF
+"{'windowSize': 50, 'neighbors': 100, 'gpu': True}",0.572,1177.66362118721,LOF
+"{'windowSize': 100, 'neighbors': 10, 'gpu': True}",0.532,2232.3267323970795,LOF
+"{'windowSize': 100, 'neighbors': 20, 'gpu': True}",0.588,2234.5836358070374,LOF
+"{'windowSize': 100, 'neighbors': 50, 'gpu': True}",0.6,2244.6152057647705,LOF
+"{'windowSize': 100, 'neighbors': 100, 'gpu': True}",0.572,2262.696525335312,LOF
+"{'windowSize': 150, 'neighbors': 10, 'gpu': True}",0.444,2785.342015028,LOF
+"{'windowSize': 150, 'neighbors': 20, 'gpu': True}",0.524,2787.8673548698425,LOF
+"{'windowSize': 150, 'neighbors': 50, 'gpu': True}",0.532,2805.7684910297394,LOF
+"{'windowSize': 150, 'neighbors': 100, 'gpu': True}",0.52,2811.6297039985657,LOF
+"{'windowSize': 200, 'neighbors': 10, 'gpu': True}",0.396,3868.462568283081,LOF
+"{'windowSize': 200, 'neighbors': 20, 'gpu': True}",0.496,3865.6266033649445,LOF
+"{'windowSize': 200, 'neighbors': 50, 'gpu': True}",0.512,3877.675621509552,LOF
+"{'windowSize': 200, 'neighbors': 100, 'gpu': True}",0.5,3888.867006778717,LOF
+
+

@@ -1,0 +1,7 @@
+ensemble_method,method_params,mean_score,std_score,max_score,mean_time,std_time,cv_score
+hard_voting,"{""spread_window"": 100, ""gaussian"": false}",0.532,0.034666667,0.584,3545.797656,552.5633744,0.065162907
+hard_voting,"{""spread_window"": 100, ""gaussian"": true}",0.5324,0.032629911,0.588,3546.757888,552.5653323,0.061288338
+maximum_score,{},0.3136,0.029766499,0.356,3545.20527,552.5645221,0.094918682
+simple_average,{},0.54,0.038689648,0.596,3544.937357,552.5541051,0.071647497
+wv_ols,{},0.4732,0.068742353,0.576,3650.836173,552.8881892,0.145271245
+wv_ols_r2,"{""emphasize_diversity"": false}",0.318,0.059784799,0.412,3655.323305,552.5311271,0.188002513

@@ -1,0 +1,18 @@
+Anomaly Type,Best Model,Accuracy,Avg. Processing Time (s),Correct Detections,Total Instances
+amplitude_change,mp_w160,0.6667,0.4621,16,24
+flat,mp_w20,0.6,0.5363,3,5
+frequency_change,mp_w160,0.6538,0.365,17,26
+local_drop,km_w50_k100,0.6667,0.8881,14,21
+local_peak,lof_w200_n20,0.8889,26.7603,24,27
+missing_drop,mp_w450,1.0,0.2358,4,4
+missing_peak,lof_w100_n50,0.7143,0.4921,10,14
+noise,lof_w100_n10,0.8696,1.9508,20,23
+outlier,km_w50_k50,1.0,0.7258,23,23
+reversed,lof_w25_n10,0.7826,0.6863,18,23
+sampling_rate,if_w60_n100,0.6,0.0921,3,5
+signal_shift,mp_w120,1.0,0.1909,1,1
+smoothed_increase,if_w20_n100,0.0,1.2542,0,1
+steep_increase,lof_w25_n10,1.0,0.0226,2,2
+time_shift,mp_w200,0.5909,0.606,13,22
+time_warping,km_w500_k10,1.0,1.7984,4,4
+unusual_pattern,lof_w50_n20,0.64,11.4193,16,25

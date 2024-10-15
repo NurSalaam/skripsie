@@ -1,0 +1,7 @@
+ensemble_method,method_params,ucr_score,computational_time
+simple_average,{},0.676,3885.994245052337
+maximum_score,{},0.38400000000000006,3886.1323351860046
+wv_ols,{},0.584,3994.8534531593327
+wv_ols_r2,"{""emphasize_diversity"": false}",0.588,3999.3819758892064
+hard_voting,"{""spread_window"": 100, ""gaussian"": false}",0.6920000000000001,3886.805733442307
+hard_voting,"{""spread_window"": 100, ""gaussian"": true}",0.6600000000000001,3887.76668024063

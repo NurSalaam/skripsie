@@ -1,0 +1,10 @@
+combination,ensemble_method,method_params,ucr_score,computational_time
+LOF-MP,simple_average,{},0.672,3893.5086569786067
+LOF-MP,hard_voting,"{""spread_window"": 100, ""gaussian"": false}",0.6520000000000001,3896.08202958107
+LOF-MP,hard_voting,"{""spread_window"": 100, ""gaussian"": true}",0.6520000000000001,3898.313158750535
+LOF-KMeans,simple_average,{},0.6240000000000001,4233.185181140901
+LOF-KMeans,hard_voting,"{""spread_window"": 100, ""gaussian"": false}",0.6240000000000001,4235.766000270844
+LOF-KMeans,hard_voting,"{""spread_window"": 100, ""gaussian"": true}",0.6040000000000001,4238.016556262971
+KMeans-MP,simple_average,{},0.5680000000000001,2032.2746107578278
+KMeans-MP,hard_voting,"{""spread_window"": 100, ""gaussian"": false}",0.504,2035.3352558612826
+KMeans-MP,hard_voting,"{""spread_window"": 100, ""gaussian"": true}",0.512,2037.5868906974792

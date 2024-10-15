@@ -1,0 +1,5 @@
+Base Learner,Best UCR Score,Mean UCR Score,Std UCR Score,Mean Computational Time,Best Parameters,Trade-off score,Best Trade-off Parameters
+IF,0.236,0.1986,0.02252577471066844,152.88656487464905,{'windowSize': 120},0.26688516304984533,{'windowSize': 20}
+KMeans,0.492,0.3698,0.06614147516378892,503.7555741906166,"{'windowSize': 50, 'n_clusters': 100}",0.21285296663971695,"{'windowSize': 50, 'n_clusters': 10}"
+LOF,0.62,0.5412,0.05536633976476472,2138.5090368151664,"{'windowSize': 50, 'neighbors': 50, 'gpu': True}",0.057524215659109194,"{'windowSize': 25, 'neighbors': 10, 'gpu': True}"
+MP,0.576,0.31999999999999995,0.15692304516948158,127.3942054271698,{'windowSize': 140},0.2722332924222883,{'windowSize': 140}
